@@ -18,6 +18,10 @@ nitro + JSR package , example
 https://jsr.io/
 
 ***
+### blog
+* https://zenn.dev/link/comments/ad3f263100e603
+
+***
 # License
 
 * MIT
