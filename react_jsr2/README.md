@@ -14,6 +14,23 @@
 nitro + jsr (react, svelte, vue) example
 
 ***
+* dev-start
+
+```
+npm run prebuild
+npm run dev
+
+#OR
+npm run prebuild && npm run dev
+```
+
+***
+* edit (other window)
+```
+npx nodemon
+```
+
+***
 ### JSR package
 
 * @kotan-kndev/re25-0331page1
