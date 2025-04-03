@@ -30,12 +30,28 @@ export default defineNitroConfig({
 });
 ```
 
+***
+* dev-start
+
+```
+npm run prebuild
+npm run dev
+
+#OR
+npm run prebuild && npm run dev
+```
+
+***
+* edit (other window)
+```
+npx nodemon
+```
 
 ***
 ### JSR package
 
 * @kotan-kndev/sv-login-250403
-* code: ap3-svelte  /login
+* code: pkg/ap3-svelte  /login
 
 ***
 # License
