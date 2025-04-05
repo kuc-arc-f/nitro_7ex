@@ -1,0 +1,37 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css",
+    "dev": "nitro dev",
+    "watch": "nodemon",
+    "prebuild": "npx vite build && npm run build:css",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@kotan-kndev/pre-page6-250405": "npm:@jsr/kotan-kndev__pre-page6-250405@^0.9.1",
+    "@kotan-kndev/re25-0331page1": "npm:@jsr/kotan-kndev__re25-0331page1@^0.9.5",
+    "@kotan-kndev/sv-home-250402": "npm:@jsr/kotan-kndev__sv-home-250402@^0.9.3",
+    "@kotan-kndev/sv-page3-250402": "npm:@jsr/kotan-kndev__sv-page3-250402@^0.9.2",
+    "@kotan-kndev/sv25-0331page3": "npm:@jsr/kotan-kndev__sv25-0331page3@^0.9.1",
+    "@kotan-kndev/vu-page4-250403": "npm:@jsr/kotan-kndev__vu-page4-250403@^0.9.2",
+    "@kotan-kndev/vu25-0402page4": "npm:@jsr/kotan-kndev__vu25-0402page4@^0.9.1",
+    "@tailwindcss/cli": "^4.1.1",
+    "nodemon": "^3.1.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.21.2",
+    "tailwindcss": "^4.1.1",
+    "vite": "^6.2.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "nitropack": "latest",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
