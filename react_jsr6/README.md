@@ -14,6 +14,23 @@
 nitro + jsr (Preact) example
 
 ***
+* dev-start
+
+```
+npm run prebuild
+npm run dev
+
+#OR
+npm run prebuild && npm run dev
+```
+
+***
+* edit (other window)
+```
+npx nodemon
+```
+
+***
 ### JSR package
 
 * @kotan-kndev/pre-page6-250405
