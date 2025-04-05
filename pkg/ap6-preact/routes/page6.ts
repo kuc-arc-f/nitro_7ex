@@ -4,6 +4,7 @@ export default eventHandler(async (event) => {
 <head>
     <meta charset="UTF-8">
     <title>page6</title>
+    <link href="./output.css" rel="stylesheet" />
 </head>
 <body>
     <div id="app"></div>
