@@ -28,9 +28,10 @@ export default defineNitroConfig({
   runtimeConfig: {
     apiUrl: "https://localhost",
     apiKey: "123",
+    userName: "user123@example.com",
+    userPasswd: "123",
   }
 });
-
 ```
 
 ***
