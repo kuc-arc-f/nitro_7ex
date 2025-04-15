@@ -51,7 +51,7 @@ npx nodemon
 ### JSR package
 
 * @kotan-kndev/sv-login-250403
-* code: pkg/ap3-svelte  /login
+* https://jsr.io/@kotan-kndev/sv-login-250403
 
 ***
 # License
