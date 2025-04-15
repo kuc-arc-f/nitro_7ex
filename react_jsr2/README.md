@@ -34,11 +34,13 @@ npx nodemon
 ### JSR package
 
 * @kotan-kndev/re25-0331page1
-* code: pkg/ap2-react  /page2
+* https://jsr.io/@kotan-kndev/re25-0331page1
+***
 * @kotan-kndev/sv-page3-250402
-* code: pkg/ap2-svelte /page3
+* https://jsr.io/@kotan-kndev/sv-page3-250402
+***
 * @kotan-kndev/vu-page4-250403
-* code: pkg/ap2-vue /page4
+* https://jsr.io/@kotan-kndev/vu-page4-250403
 
 ***
 # License
