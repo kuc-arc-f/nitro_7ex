@@ -1,6 +1,0 @@
-{
-  "watch": ["src"],
-  "ext": "ts,tsx,css,svelte", 
-  "ignore": ["routes/**/*.txt"],
-  "exec": "npm run prebuild"
-}

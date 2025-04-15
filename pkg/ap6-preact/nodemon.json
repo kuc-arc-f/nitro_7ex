@@ -1,6 +1,0 @@
-{
-  "watch": ["src"],
-  "ext": "ts,tsx,css", 
-  "ignore": ["routes/**/*.txt"],
-  "exec": "npx vite build"
-}
