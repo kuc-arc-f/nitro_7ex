@@ -34,7 +34,7 @@ npx nodemon
 ### JSR package
 
 * @kotan-kndev/pre-page6-250405
-* code: pkg/ap6-preact  /page6
+* https://jsr.io/@kotan-kndev/pre-page6-250405
 
 ***
 # License
